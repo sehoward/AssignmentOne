@@ -2,13 +2,22 @@
 <html lang="en">
 
   <head>
+<style>
+.button {
+    background-color: #4CAF50;
+    
+}
+</style>
+
+
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Small Business - Start Bootstrap Template</title>
+    <title>Landing Page B</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +32,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">Chioptle's 'Cado Crusher</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,9 +46,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
@@ -51,16 +58,46 @@
     <!-- Page Content -->
     <div class="container">
 
+    <br>
+    <br>
+
       <!-- Heading Row -->
       <div class="row my-4">
-        <div class="col-lg-8">
-          <img class="img-fluid rounded" src="http://placehold.it/900x400" alt="">
+        <div class="col-lg-6">
+          <img class="img-fluid rounded" src="img/crusher.jpg" alt="">
         </div>
         <!-- /.col-lg-8 -->
-        <div class="col-lg-4">
-          <h1>Business Name or Tagline</h1>
-          <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-          <a class="btn btn-primary btn-lg" href="#">Call to Action!</a>
+        <div class="col-lg-6">
+        
+          <h1>What is 'Cado Crusher?</h1>
+          <p>Have you ever wanted to play an on-line video game where the prize was free food?! Well now you can... introducing Chipotle's 'Cado Crusher. This is a promotional game that lets users win deals on Chipotle food. Sign up to learn when our promotions go live and what special offers are in store! </p>
+         
+
+          <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
+<fieldset >
+
+
+<div class='short_explanation'>* required fields</div>
+
+
+<div class='container'>
+    <label for='name' >Your Full Name*: </label><br/>
+    <input type='text' '></span>
+</div>
+<div class='container'>
+    <label for='email' >Email Address*:</label><br/>
+    <input type='text' ></span>
+</div>
+<br>
+<a class="btn btn-primary btn-lg" href="#">Yes, Please!</a> 
+
+
+</fieldset>
+</form>
+
+
+
+
         </div>
         <!-- /.col-md-4 -->
       </div>
@@ -69,7 +106,7 @@
       <!-- Call to Action Well -->
       <div class="card text-white bg-secondary my-4 text-center">
         <div class="card-body">
-          <p class="text-white m-0">This call to action card is a great place to showcase some important information or display a clever tagline!</p>
+          <p class="text-white m-0">Promotions include all food items like burritos, bowls, tacos, and salads! Earn your free Chipotle product today!</p>
         </div>
       </div>
 
@@ -78,39 +115,35 @@
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <div class="card-body">
-              <h2 class="card-title">Card One</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+              <h2 class="card-title">We Made It On The News</h2>
+              <p class="card-text">Check out this shout out done by a local news channel in the U.S.! They know how to save at Chipotle, do you?! </p>
+
+
+<iframe width="325" height="315" src="https://www.youtube.com/embed/24g54F9n23g" frameborder="0" gesture="media" allowfullscreen></iframe>
+
             </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">More Info</a>
-            </div>
+            
           </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4 mb-4" div style="text-align: center"> 
+          <img class="img-fluid rounded" src="logo.jpg" alt="">
         </div>
         <!-- /.col-md-4 -->
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <div class="card-body">
-              <h2 class="card-title">Card Two</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+              <h2 class="card-title">Time To Play</h2>
+              <p class="card-text">If you like free food like we do, it's time to play Chipotle's 'Cado Crusher. We promise you won't be dissapointed. Click below to find out more & how to play. 
+              </p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">More Info</a>
+              <a href="#" class="btn btn-primary">Play Now</a>
             </div>
           </div>
         </div>
         <!-- /.col-md-4 -->
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h2 class="card-title">Card Three</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">More Info</a>
-            </div>
-          </div>
-        </div>
-        <!-- /.col-md-4 -->
+
 
       </div>
       <!-- /.row -->
@@ -121,7 +154,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Chipotle 2017</p>
       </div>
       <!-- /.container -->
     </footer>
@@ -131,7 +164,7 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
-<!-- Bootstrap core JavaScript -->
+    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -141,8 +174,8 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
-    
 
   </body>
 
 </html>
+
